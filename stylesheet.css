@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+section {
+    max-width: none;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+/*--------navigationsmenu--------*/
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header nav a {
+    padding: 0.2rem;
+    margin: 0.4rem;
+
+}
+
+/*--------indhold-------*/
+
+#gruppen,
+#koncept,
+#målgruppe,
+#analyse,
+#video {
+    border-radius: 10px;
+    border: 5px;
+    padding: 0.5rem;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0.5rem;
+}
